@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mikes-lib")(type "KiCad")(uri "${KIPRJMOD}/mikes-lib.kicad_sym")(options "")(descr ""))
+)

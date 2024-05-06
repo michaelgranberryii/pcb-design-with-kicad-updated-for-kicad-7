@@ -705,7 +705,7 @@
 		(descr "SW_TH_Tactile_Omron_B3F-10xx_https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "Omron B3F-10xx")
 		(property "Reference" "SW1"
-			(at 3.25 -2.05 270)
+			(at 3.25 -2.05 -90)
 			(layer "F.SilkS")
 			(uuid "99053b69-1861-41d9-bf87-880c77071167")
 			(effects
@@ -716,7 +716,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 3.2 6.5 270)
+			(at 3.2 6.5 -90)
 			(layer "F.Fab")
 			(uuid "bfcaee6c-efeb-479e-93de-a22d07a82a4b")
 			(effects
@@ -898,7 +898,7 @@
 			(uuid "03157423-46da-476e-88cf-55b9e937b1f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 270)
+			(at 3.25 2.25 -90)
 			(layer "F.Fab")
 			(uuid "0da03779-53d6-47f7-8934-341a3be070ca")
 			(effects
@@ -971,7 +971,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D1"
-			(at -0.757 4.064 270)
+			(at -0.757 4.064 -90)
 			(layer "F.SilkS")
 			(uuid "4ea99b8d-5917-4ff4-a689-b55ec2f31d99")
 			(effects
@@ -982,7 +982,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.275 -4.064 270)
+			(at 1.275 -4.064 -90)
 			(layer "F.SilkS")
 			(uuid "d52c1a6d-42c0-4f31-b3fc-960fabd41962")
 			(effects
