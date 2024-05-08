@@ -1912,6 +1912,18 @@
 		(uuid "781a4798-e53c-45fb-9223-7cf00e700b6d")
 	)
 	(junction
+		(at 194.31 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78bad4be-e3b1-4204-ba84-b72f193a7e2c")
+	)
+	(junction
+		(at 196.85 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93255945-fc35-4d75-bd27-0624859ccf71")
+	)
+	(junction
 		(at 82.55 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2008,6 +2020,26 @@
 			(type default)
 		)
 		(uuid "099ee897-4108-449f-a592-24fbfaf1dbbf")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcb94a7-1c6f-4c2f-957d-0d433540272d")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff7af77-88e2-4480-aceb-df33e77d0b40")
 	)
 	(wire
 		(pts
@@ -2121,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 101.6) (xy 196.85 114.3)
+			(xy 196.85 101.6) (xy 196.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 46.99) (xy 194.31 58.42)
+			(xy 194.31 46.99) (xy 194.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2451,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 53.34) (xy 194.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6874c3-d69f-470c-937d-0c8e56170140")
+	)
+	(wire
+		(pts
 			(xy 196.85 114.3) (xy 196.85 130.81)
 		)
 		(stroke
@@ -2551,6 +2593,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 53.34) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b583e3-b34a-4244-8f6e-e1251c3e110f")
+	)
+	(wire
+		(pts
 			(xy 118.11 101.6) (xy 118.11 92.71)
 		)
 		(stroke
@@ -2599,16 +2651,91 @@
 		)
 		(uuid "ff62b8b5-5645-4aff-b3c0-76e78136f4e1")
 	)
-	(label "PWR_output"
-		(at 194.31 53.34 0)
-		(fields_autoplaced yes)
+	(rectangle
+		(start 33.02 78.74)
+		(end 138.43 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cc9a95b-bdca-4c67-bc82-83450ecd43ca)
+	)
+	(rectangle
+		(start 38.1 24.13)
+		(end 158.75 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9d6092d-544d-4a6b-994a-a3fc385dc2a6)
+	)
+	(rectangle
+		(start 177.8 35.56)
+		(end 252.73 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f93b13d0-8bc7-4b99-a085-518d3947eecb)
+	)
+	(text "I flipped screw terminals so that pin 1 is GND"
+		(exclude_from_sim no)
+		(at 219.71 137.922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "0ce6d817-e79c-4a89-bff5-21634f0fdeca")
+		(uuid "50c94bfa-d8c3-4935-8170-978a538f8a3f")
+	)
+	(text "Output and Switches"
+		(exclude_from_sim no)
+		(at 187.198 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4139391-2883-4021-bb48-b8cdc0b3372d")
+	)
+	(text "3.3V Circuit"
+		(exclude_from_sim no)
+		(at 39.116 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d97df4d4-3ec3-411a-a17b-fb3b100612be")
+	)
+	(text "I flipped screw terminals so that pin 1 is GND"
+		(exclude_from_sim no)
+		(at 218.44 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6bddd06-7025-4507-a557-1b8152556370")
+	)
+	(text "Input and 5V ciruit"
+		(exclude_from_sim no)
+		(at 46.736 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7a1761e-70e0-47f4-b78e-17b330fbf0b2")
 	)
 	(label "5V"
 		(at 189.23 44.45 0)
@@ -2631,6 +2758,17 @@
 			(justify left bottom)
 		)
 		(uuid "2bef75d7-554e-4d32-9582-0565acdd8de8")
+	)
+	(label "PWR_OUT_BOTTOM"
+		(at 198.12 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d919164-9c6d-4ac3-88a5-51934ed76450")
 	)
 	(label "12V"
 		(at 88.9 38.1 0)
@@ -2665,8 +2803,8 @@
 		)
 		(uuid "6ee18d81-f0b7-48e7-a3d5-5b282943b017")
 	)
-	(label "PWR_output"
-		(at 196.85 109.22 0)
+	(label "PWR_OUT_BOTTOM"
+		(at 198.12 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2674,7 +2812,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7c619f29-348d-4a80-baf8-ca25d89c5f1f")
+		(uuid "8164d159-a84d-4e26-be4a-20244ce1a1e1")
 	)
 	(label "PWR_input"
 		(at 62.23 45.72 0)
@@ -2794,7 +2932,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16e277ac-613f-4138-89b7-032bfaa446a6")
 		(property "Reference" "D1"
 			(at 84.1375 118.11 0)
@@ -2837,6 +2974,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Power input indicator"
+			(at 82.55 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2932,7 +3077,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "171c729d-a57c-4e65-9fa2-caa6f7c7a173")
 		(property "Reference" "J4"
 			(at 204.47 45.7199 0)
@@ -2977,6 +3121,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output voltage selector 1"
+			(at 206.756 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -3332,76 +3484,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 203.2 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65ed72ad-a052-4dda-838b-9daaf960286c")
-		(property "Reference" "J2"
-			(at 204.47 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 204.47 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 203.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 203.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fec6583-1198-4c62-84f1-89dfa597f0f5")
-		)
-		(pin "2"
-			(uuid "2ddb6d3a-1456-4096-8e43-a42d0d535d01")
-		)
-		(instances
-			(project "breadboard-power-supply"
-				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 204.47 101.6 180)
 		(unit 1)
@@ -3409,7 +3491,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70b21e96-2cd0-45ca-b774-6f1467557af9")
 		(property "Reference" "J3"
 			(at 205.74 100.3299 0)
@@ -3454,6 +3535,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output voltage selector 2"
+			(at 212.598 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -3529,6 +3618,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "Output to jumper wires"
+			(at 223.266 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "676ef9d5-1849-4303-9981-9013c28dc48d")
 		)
@@ -3597,6 +3694,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to jumper wires"
+			(at 221.488 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3894,6 +3999,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 204.47 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b381d4-b94a-4c54-be09-f31edbc754e2")
+		(property "Reference" "J2"
+			(at 205.74 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 203.2 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to breadboard"
+			(at 217.17 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f91883e-a482-4a96-a527-4144d8421c3e")
+		)
+		(pin "2"
+			(uuid "ca933331-5edd-4080-8f57-25fc6afda56b")
+		)
+		(instances
+			(project "breadboard-power-supply"
+				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 99.06 118.11 180)
 		(unit 1)
@@ -4131,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_1218_EWI"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 72.39 45.72 0)
 			(effects
 				(font
@@ -4160,6 +4342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "76d80bde-33fa-4879-bbb6-86e53636f2da")
 		)
@@ -4173,76 +4364,6 @@
 			(project "breadboard-power-supply"
 				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 204.47 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eef1148d-9817-4ba1-85a5-5003b1b69257")
-		(property "Reference" "J1"
-			(at 205.74 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 205.74 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ddb74c8-de13-4098-b9fb-d2b5c757c403")
-		)
-		(pin "2"
-			(uuid "d9fa7be4-9565-4b4d-83ce-746ef9e83f0e")
-		)
-		(instances
-			(project "breadboard-power-supply"
-				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4313,6 +4434,83 @@
 			(project "breadboard-power-supply"
 				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 203.2 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc6e119e-840e-471a-b575-10d4a7db6b19")
+		(property "Reference" "J1"
+			(at 204.47 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 208.026 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to breadboard"
+			(at 218.694 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f9257be-399f-4af0-a82a-13a7ebd13b22")
+		)
+		(pin "2"
+			(uuid "90c4ed5c-9eaf-47d0-bd51-d2c3d0c50a10")
+		)
+		(instances
+			(project "breadboard-power-supply"
+				(path "/9b52749e-8177-4677-bed2-b5bcf6eb53db"
+					(reference "J1")
 					(unit 1)
 				)
 			)
